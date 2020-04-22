@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto&display=swap');
+
+.title{
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    color: #e32509;
+    text-align: center;
+    position: relative;
+    right: 10px;    
+}
+#hr1, #hr2{
+    border: 2px solid #2f2d4e;
+    width: 300px;
+}
+#hr1{
+    position: relative;
+    top: 48px;
+    right: 245px;
+}
+#hr2{
+    position: relative;
+    top: -52px;
+    right: -245px;
+}
+
+.about{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 75px;
+}
+
+.about .content{
+    width: 40%;
+    height: 80%;
+    font-family: 'Josefin Sans';
+    padding: 5px;
+    position: relative;
+    left: 55%;
+    top: 20%;
+
+}
+.about .content h2{
+    color: #e32509;
+    font-size: 28px;
+}
+.about .content hr{
+    position: relative;
+    top:-28px;
+    right: 89px;
+    width: 100px;
+    border: 1px solid #2f2d4e;
+
+}
+.about .content h1{
+    color: #2f2d4e;
+    font-size: 42px;
+}
+.about .content p{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Roboto';
+    color: #858383;
+}
+
+.about .wedimg{
+    width: 35%;
+    height: 60%;
+    position: relative;
+    top: -70%;
+    left: 5%;
+
+}
+.wedimg .img1{
+    border: #fff;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0b/f9/db/25/wedding-reception-at.jpg"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.wedimg .img2{
+    position: relative;
+    top:-30%;
+    left:45%;
+    height: 80%;
+    width: 85%;
+    z-index: 2;
+    background-image: url("http://pittsburghsgrandhall.com/images/midnav/01.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.birimg .img1{
+    border: #fff;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-image: url("http://thebabyshower.org/wp-content/uploads/2018/05/batman-themed-birthday-party-ideas-e1527657970370.jpg"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.birimg .img2{
+    position: relative;
+    top:-30%;
+    left:45%;
+    height: 80%;
+    width: 85%;
+    z-index: 2;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-1KyYlM0gQc42faEHXWGseyH-oNcDqF72EQg8bxnahu7PaTKJ");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.showerimg .img1{
+    border: #fff;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-image: url("https://partyspace.com/images/blog_entries/vickers%20restaurant.jpg"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.showerimg .img2{
+    position: relative;
+    top:-30%;
+    left:45%;
+    height: 80%;
+    width: 85%;
+    z-index: 2;
+    background-image: url("https://www.mydebtepiphany.com/wp-content/uploads/2016/04/christening-1499314_1920.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.memimg .img1{
+    border: #fff;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdz_73OGEOYtbsjuNoUcUY_6XNJFX-Am9OTUCn18-AWyLzxfPi"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.memimg .img2{
+    position: relative;
+    top:-30%;
+    left:45%;
+    height: 80%;
+    width: 85%;
+    z-index: 2;
+    background-image: url("https://www.torresmortuary.com/wp-content/uploads/2016/04/Funeral-Service-Blurred.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.cerimg .img1{
+    border: #fff;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-image: url("http://www.fnpweddings.com/wp-content/uploads/2013/04/IMG_5801.jpg"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.cerimg .img2{
+    position: relative;
+    top:-30%;
+    left:45%;
+    height: 80%;
+    width: 85%;
+    z-index: 2;
+    background-image: url("http://www.flyskyeventz.com/img/award-function.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

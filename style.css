@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #fff;
+    margin: 0;
+    overflow-x: hidden; 
+    margin-bottom: -20%;
+    
+}
+button :hover{
+    cursor: pointer;
+}
+header a{
+    text-decoration: none;
+    color:#2f2d4e;
+}
+header a:hover{
+    color: #e32509;
+}
+header{
+    width: 100%;
+    height: 70px;
+    font-family: 'Roboto'; 
+    padding-top: 1%;
+    position: fixed;
+    z-index: 13;
+    transition: all 0.5s;
+}
+header.scrolled{
+    background: #7672ad;
+}
+.menu{
+    color: #2f2d4e;
+}
+.options.scrolled2{
+    color: #fff;
+}
+.options:hover{
+    color: #e32509;
+}
+header li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 17px;
+    color:#2f2d4e;
+}
+header li:hover{
+
+    color: #e32509;
+    cursor: pointer;
+}
+header ul{
+    position: relative;
+    left: 63%;
+    top: -80%;
+
+}
+header #star-img{
+    position: relative;
+    left: 4%;
+    bottom: -8%;
+}
+header h1{
+    position: relative;
+    left: 6%;
+    top: -10%;
+    font-weight: 0;
+}
+header #star{
+    color: #e32509;
+}
+
+
+.cover{
+    width: 100%;
+    height: 600px;
+    
+}
+.cover .content{
+    width: 40%;
+    height: 80%;
+    padding: 2%;
+    position: relative;
+    left: 5%;
+    top: 15%;
+
+}
+.cover h1{
+    font-family: 'Josefin Sans';
+    font-size: 70px;
+    line-height: 80px;
+    color: #2f2d4e;
+}
+.cover p{
+
+    font-family: 'Josefin Sans';
+    line-height: 25px;
+    font-size:18px;
+    color: #2f2d4e;
+    position: relative;
+    top: -20px;
+}
+.cover #design-button{
+    background-color: #7d6865;
+    border: #7d6865;
+    width: 150px;
+    height: 50px;
+    border-radius: 55px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    transition: all 0.2s;
+}
+.cover #contact-button{
+    background-color: #7d6865;
+    color: #2f2d4e;
+    border-radius: 55px;
+    border: #7d6865;
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 900;
+
+}
+.cover #contact-button #text{
+    position: relative;
+    left: 20px;
+    top: -5px;
+}
+.cover #contact-button:hover{
+    color: blue;
+}
+.cover #design-button:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+}
+.cover #slider{
+    width: 40%;
+    height: 80%;
+    position: relative;
+    left: 55%;
+    top: -55%;
+    background-size: contain; 
+
+}
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+/* helper css, since we don't have images */
+.slide1 {background-image: url("https://apis.xogrp.com/media-api/images/70683b88-b9f7-4873-a4a6-d9e236873126");
+background-size: contain;
+background-repeat: no-repeat;}
+.slide2 {background-image: url("https://media-api.xogrp.com/images/82d79d5a-9fdf-412d-bd14-592d474bb0ce~rs_768.h");
+    background-size: contain;
+    background-repeat: no-repeat;}
+.slide3 {background-image: url("https://i2.wp.com/www.bookmyballoons.in/wp-content/uploads/2016/06/Birthday-party-organizers-Bangalore.jpg?resize=672%2C394");
+    background-size: contain;
+    background-repeat: no-repeat;}
+.slide4 {background-image: url("https://www.qub.ac.uk/home/media/Media,593590,en.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;}
+.slide5 {background: white;
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+.about{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 75px;
+}
+
+.about .content{
+    width: 40%;
+    height: 80%;
+    font-family: 'Josefin Sans';
+    padding: 5px;
+    position: relative;
+    left: 55%;
+    top: 20%;
+
+}
+.about .content h2{
+    color: #e32509;
+    font-size: 28px;
+}
+.about .content hr{
+    position: relative;
+    top:-28px;
+    right: 89px;
+    width: 100px;
+    border: 1px solid #2f2d4e;
+
+}
+.about .content h1{
+    color: #2f2d4e;
+    font-size: 42px;
+}
+.about .content p{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Roboto';
+    color: #858383;
+}
+
+.about .images{
+    width: 35%;
+    height: 60%;
+    position: relative;
+    top: -70%;
+    left: 5%;
+
+}
+.about .images .img1{
+    border: #fff;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-image: url("https://www.oyorooms.com/blog/wp-content/uploads/2018/02/fe-3.png"); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.about .images .img2{
+    position: relative;
+    top:-30%;
+    left:45%;
+    height: 80%;
+    width: 85%;
+    z-index: 2;
+    background-image: url("https://www.i-eventplanner.com/wp-content/uploads/2018/07/Birthday-Party-planner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.business{
+    width: 100%;
+    height: 600px; 
+    position: relative;
+    top: 180px; 
+}
+.business h2{
+    color: #e32509;
+    font-size: 38px;
+    font-family: 'Josefin Sans';
+    text-align: center;
+}
+.business #hr1{
+    position: relative;
+    top: 39px;
+    left: 241px;
+    width: 200px;
+    border: 1px solid #2f2d4e;
+}
+.business #hr2{
+    position: relative;
+    top: -39px;
+    left: -240px;
+    width: 200px;
+    border: 1px solid #2f2d4e;
+}
+.business .box-container{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    left: 23%;
+    top:-80%;
+    
+}
+.business .box{
+
+    width: 20%;
+    height: 80%;
+    float: left;
+    margin-right: 6%;
+    padding-right: 1%;
+
+}
+.business .box h1{
+    font-family: "Josefin Sans";
+    color: #e32509;
+
+    line-height: 40px;
+}
+.business .box h1 span{
+    font-size: 50px;
+    color: #2f2d4e;
+
+}
+.business .box p{
+    font-size: 20px;
+    font-family: "Roboto";
+    color: #858383;
+}
+.business .box hr{
+    border: 2px solid #2f2d4e;
+}
+.box-container .img1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMzmJu1YUI-mzNLJw2ZuVUGyKwdSuklF4AUE1w5wzgA-Eowzdh");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 50%;
+}
+.box-container .img2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Z3IZhIY4frTzHIAhjxXfRmtDXoFVYbbkRbS2SscguovoqPb_");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 50%;
+}
+.box-container .img3{
+    background-image: url("http://www.iconarchive.com/download/i88865/icons8/ios7/Science-Business.ico");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: 50%;
+    position: relative;
+    left: 15%;
+}
+.social{
+    display: block;
+    height: 80%;
+    width: 10%;
+    position: relative;
+    left: 5%;
+    top: 10%;
+    border-radius: 10%;
+}
+.social a{
+    text-decoration: none;
+    color: #2f2d4e;
+    font-size: 28px;
+    line-height: 100px;
+    transition: all 1s;
+    
+}
+.social a :hover{
+    color: #e32509;
+
+}
+.contact {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 100px;
+}
+
+.contact .feedback{
+    width: 50%;
+    height: 400px;
+
+}
+.feedback{
+    position: relative;
+    top: 200px;
+    left: 5%;
+}
+.contact .feedback h2{
+    color: #e32509;
+    font-family: "Josefin Sans";
+    font-size: 28px;
+    position: relative;
+    top: -90%;
+    left: 10%;
+}
+
+.feedback hr{
+    position: relative;
+    top: -99%;
+    left: -4%;
+    width: 150px;
+    border: 1px solid #2f2d4e;
+
+}
+.feedback #message{
+    position: relative;
+    top: -360px;
+    left: 10%;
+    width: 80%;
+    height: 150px;
+}
+.feedback #name, .feedback #email{
+    position: relative;
+    width: 40%;
+    height: 30px;
+    top: -330px;
+    left: 10%;
+}
+.feedback #subject{
+    position: relative;
+    width: 81.25%;
+    height: 30px;
+    top: -330px;
+    left: 10%;
+}
+.feedback #submit{
+    background: #e32509;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    border: #e32509;
+    position: relative;
+    top: -300px;
+    left: 10%;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    transition: all 0.5s;
+}
+.feedback #submit:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+}
+.contact .info i{
+    font-size: 30px;
+    margin-right: 15px;
+}
+.contact .info{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    left: 55%;
+    top: -30%;
+    font-size: 22px;
+    color: #858383;
+    font-family: "Roboto";
+    word-spacing: 5px;
+    line-height: 60px;
+}
+
+footer h1{
+    width: 100%;
+    height: 70px;
+    font-family: 'Roboto'; 
+    position: relative;
+    font-size: 50px;
+    top: 600px;
+    right: 410px;
+}
+footer h1 span{
+    color: #e32509;
+}
+footer  em{
+    color: #858383;
+    font-size: 30px;
+    position: relative;
+    top: 550px;
+    left: 33.5%;
+}
